@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.BookMapper" >
+    <!--增加一本书-->
+    <insert id="addBook" parameterType="entity.BooKPOJO">
+        insert into ssm_book_demo_tab(book_name,book_price)
+        values (#{bookName},#{bookPrice})
+    </insert>
+
+    <!--查询所有书-->
+    <select id="queryAllBooks" resultType="entity.BooKPOJO">
+        select * from ssm_book_demo_tab
+    </select>
+
+<!--    删除所有记录-->
+    <delete id="removeAll" >
+        truncate table ssm_book_demo_tab
+    </delete>
+
+    <insert id="submitFun">
+        commit
+    </insert>
+</mapper>

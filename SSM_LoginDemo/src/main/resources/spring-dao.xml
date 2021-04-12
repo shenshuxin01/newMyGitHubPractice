@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--在spring-config.xml中，我们要配置数据库连接池，和sqlSessionFactory对象，以及UserMapper对象。
+sqlSessionFactory中引用mybatis-config.xml文件
+userMapper中标明要实现的接口-->
+
+    <!--表明引用的参数配置文件是mysql-local.properties-->
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>
+                    db.properties
+                </value>
+            </list>
+        </property>
+    </bean>
+
+    <!--数据库连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <!-- 初始连接池大小 -->
+        <property name="initialPoolSize" value="10"/>
+        <!-- 连接池中连接最小个数 -->
+        <property name="minPoolSize" value="5"/>
+        <property name="maxPoolSize" value="20"/>
+    </bean>
+
+    <!-- 配置SqlSessionFactory对象 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 注入数据库连接池 -->
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="mybatis-config.xml"/>
+    </bean>
+
+    <!--配置userMapper对象-->
+    <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="mapper.BookMapper"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+    <bean id="bookService" class="service.BookServiceImpl">
+        <property name="bookMapper" ref="userMapper"></property>
+    </bean>
+
+</beans>
