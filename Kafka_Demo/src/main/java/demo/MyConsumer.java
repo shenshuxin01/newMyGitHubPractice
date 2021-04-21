@@ -25,7 +25,7 @@ public class MyConsumer {
 
         while (true) {
 //            System.out.println("消费者打印消息1");
-            ConsumerRecords<String, String> records = kafkaConsumer.poll(10110);
+            ConsumerRecords<String, String> records = kafkaConsumer.poll(110);
 //            System.out.println("消费者打印消息2");
             for (ConsumerRecord<String, String> record : records) {
 //                System.out.println("消费者打印消息3");

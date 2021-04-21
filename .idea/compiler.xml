@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Log4jDemo" />
+        <module name="Kafka_Demo" />
         <module name="SpringMVCday01" />
+        <module name="LeetCodeDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Kafka_Demo" target="1.5" />
+      <module name="LeetCodeDemo" target="8" />
       <module name="Log4jDemo" target="8" />
       <module name="SpringMVCday01" target="1.8" />
     </bytecodeTargetLevel>
