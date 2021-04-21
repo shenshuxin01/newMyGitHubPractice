@@ -5,8 +5,9 @@ import java.util.stream.IntStream;
 
 public class TwoSum{
 
-    public int[] twoSum(int[] nums, int target) {
-        int[] result={0,0};
+    public int[] twoSum(int[] nums, int target) {  //{3,2,4}  6
+        int[] result= {0,0};
+
         for(int i=0;i<nums.length;i++){
             // System.out.println(i);
             for(int j=nums.length-1; j>i; j--){

@@ -6,7 +6,7 @@ import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
 public class DemoProducer extends Thread{
-    private KafkaProducer<Integer, String> kafkaProducer;
+    private KafkaProducer<String, String> kafkaProducer;
 
     private String topic;
 
@@ -17,12 +17,12 @@ public class DemoProducer extends Thread{
         //集群broker地址，多个broker地址逗号隔开
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "192.168.192.131:9092,192.168.192.132:9092,192.168.192.133:9092");
         //设置生产者id
-        properties.put(ProducerConfig.CLIENT_ID_CONFIG,"DemoProducer");
+//        properties.put(ProducerConfig.CLIENT_ID_CONFIG,"DemoProducer");
         //设置发送消息ack模式
-        properties.put(ProducerConfig.ACKS_CONFIG,"-1");
+        properties.put(ProducerConfig.ACKS_CONFIG,"0");
         //key序列化类
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
-                "org.apache.kafka.common.serialization.IntegerSerializer");
+                "org.apache.kafka.common.serialization.StringSerializer");
         //value序列化类
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
                 "org.apache.kafka.common.serialization.StringSerializer");
@@ -32,7 +32,7 @@ public class DemoProducer extends Thread{
         properties.put(ProducerConfig.LINGER_MS_CONFIG, 1000);
         //每次请求最大的字节数
         properties.put(ProducerConfig.MAX_REQUEST_SIZE_CONFIG, 1024);
-        kafkaProducer=new KafkaProducer<Integer, String>(properties);
+        kafkaProducer=new KafkaProducer<String, String>(properties);
         this.topic=topic;
         this.isAsync=isAysnc;
     }
@@ -43,10 +43,13 @@ public class DemoProducer extends Thread{
 
     @Override
     public void run() {
-        int count = 10;
+        int count = 1000;
+
         if (isAsync){
             do {
-                kafkaProducer.send(new ProducerRecord<Integer, String>(topic, count,"isAsyncSend" + count), new Callback() {
+
+                System.out.println("do循环执行开始");
+                kafkaProducer.send(new ProducerRecord<String, String>(topic, ""+count,"zzzzzzzzzzzzzzzzzzzzzz" + count), new Callback() {
 //                    @Override
                     public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                         //异步发送回调函数，异步发送过程是类似队列消费过程，先将消息放到列表，然后有一个线程扫描这个列表，发现有消息则进行发送消费
@@ -58,11 +61,12 @@ public class DemoProducer extends Thread{
                 });
                 count--;
             }while (count >0);
-        }else {
+        } else {
             //同步发送消息,get是阻塞进行的
             do {
                 try {
-                    RecordMetadata recordMetadata = kafkaProducer.send(new ProducerRecord<Integer, String>(topic, count,"isAsyncSend" + count)).get();
+                    System.out.println("开始执行"+count);
+                    RecordMetadata recordMetadata = kafkaProducer.send(new ProducerRecord<String, String>(topic, ""+count,"isAsyncSend" + count)).get();
                     System.out.println("分区"+recordMetadata.partition()+
                             "\n 偏移"+recordMetadata.offset());
                 } catch (InterruptedException e) {
@@ -79,9 +83,10 @@ public class DemoProducer extends Thread{
 
     }
 //
-//    public static void main(String[] args) {
-//        KafkaProducerDemo kafkaProducerDemo = new KafkaProducerDemo("test", true);
-//        kafkaProducerDemo.start();
-//    }
+    public static void main(String[] args) {
+        DemoProducer kafkaProducerDemo = new DemoProducer("first", false);
+        kafkaProducerDemo.start();
+        while (true){}
+    }
 
 }

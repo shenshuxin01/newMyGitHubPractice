@@ -22,7 +22,7 @@ public class MyProducer {
 
             KafkaProducer<String, String> kafkaProducer = new KafkaProducer<String, String>(properties);
 
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 111; i++) {
                 kafkaProducer.send(new ProducerRecord<String, String>("first","kk->"+i, "vv->"+i));
             }
             kafkaProducer.close();

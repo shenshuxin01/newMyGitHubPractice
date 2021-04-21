@@ -13,7 +13,7 @@ public class NO_20 {
     public static void main(String[] args) {
         long l = System.currentTimeMillis();
 
-        System.out.println( isValid("(){[]{}()}") );
+        System.out.println( isValid("()){[]{}()}") );
 
         System.out.println("执行时间："+(System.currentTimeMillis()-l)+"毫秒");
     }
