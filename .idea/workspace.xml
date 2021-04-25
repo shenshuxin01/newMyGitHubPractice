@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_25_14_47__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_25_14_47__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVCday01/overlays/org.springframework.spring-context-4.3.19.RELEASE.info" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCday01/overlays/org.springframework.spring-context-4.3.19.RELEASE.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,12 +115,13 @@
     <MESSAGE value="最外层根目录新增pom文件管理子项目" />
     <MESSAGE value="删除" />
     <option name="LAST_COMMIT_MESSAGE" value="删除" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="121" y="50" key="DiffContextDialog" timestamp="1619333234130">
+    <state x="121" y="50" key="DiffContextDialog" timestamp="1619334802105">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1619333234130" />
+    <state x="121" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334802105" />
     <state x="400" y="95" key="FileChooserDialogImpl" timestamp="1619331855825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -126,18 +130,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="50" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1619333253092" />
+    <state x="277" y="101" key="MultipleFileMergeDialog" timestamp="1619334736658">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="277" y="101" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334736658" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1619333384011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1619333384011" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1619333144188">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1619334767251">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619333144188" />
-    <state x="380" y="52" key="git4idea.branch.GitSmartOperationDialog" timestamp="1619333446813">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619334767251" />
+    <state x="380" y="52" key="git4idea.branch.GitSmartOperationDialog" timestamp="1619334809719">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="380" y="52" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1619333446813" />
+    <state x="380" y="52" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334809719" />
     <state x="28" y="1" key="new project wizard" timestamp="1619331483302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
