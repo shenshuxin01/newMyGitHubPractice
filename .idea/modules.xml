@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Kafka_Demo/Kafka_Demo.iml" filepath="$PROJECT_DIR$/Kafka_Demo/Kafka_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCodeDemo/LeetCodeDemo.iml" filepath="$PROJECT_DIR$/LeetCodeDemo/LeetCodeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Z__OtherDemo/OtherDemo.iml" filepath="$PROJECT_DIR$/Z__OtherDemo/OtherDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSM_LoginDemo/SSM_LoginDemo.iml" filepath="$PROJECT_DIR$/SSM_LoginDemo/SSM_LoginDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-aop-01/Spring-aop-01.iml" filepath="$PROJECT_DIR$/Spring-aop-01/Spring-aop-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVCday01/SpringMVCday01.iml" filepath="$PROJECT_DIR$/SpringMVCday01/SpringMVCday01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/newMyGitHubPractice.iml" filepath="$PROJECT_DIR$/.idea/newMyGitHubPractice.iml" />
+    </modules>
+  </component>
+</project>
