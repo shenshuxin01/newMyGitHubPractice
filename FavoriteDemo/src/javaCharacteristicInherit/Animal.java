@@ -1,3 +1,5 @@
+package javaCharacteristicInherit;
+
 public abstract class Animal {
     public void fun() {
         System.out.println("父类fun方法执行");

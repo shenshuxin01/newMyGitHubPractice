@@ -1,6 +1,8 @@
+package javaCharacteristicInherit;
+
 import java.util.Calendar;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
     public Cat(){
         System.out.println("子类无参构造方法执行");
     }
