@@ -6,6 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>newMyGitHubPractice</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
@@ -15,6 +16,7 @@
         <module>SpringMVCday01</module>
         <module>SSM_LoginDemo</module>
         <module>Z__OtherDemo</module>
+        <module>SecondSSMDemo</module>
     </modules>
 
     <dependencies>
