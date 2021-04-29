@@ -1,18 +1,22 @@
+import java.nio.charset.StandardCharsets;
+
 public class TestDemo {
     public static void main(String[] args) {
-
-        int[][] ints = new int[2][];
-        ints[1]= new int[]{0,1,2,3,4};
-        ints[0]= new int[]{0,1};
-//        System.out.println(ints[1][2]);
-        int b=0;
-        System.out.println(b);
-        fun(++b);
-        System.out.println(b);
+//        byte[] bytes = "😀".getBytes(StandardCharsets.UTF_8);
+//        for (byte aByte : bytes) {
+////            System.out.println(aByte);
+////            System.out.println(Integer.toBinaryString(aByte));
+////            System.out.println(Integer.toHexString(aByte));
+//            System.out.println(aByte);
+//
+//        }//  128 64 32 16 8 4 2 1
+//
+//        byte[] bytes1 = {(byte) 0xf0, (byte) 0x9f, (byte) 0x98, (byte) 0x80};
+//        System.out.println(new String(bytes1,StandardCharsets.UTF_8));
+//        System.out.println(0xf0);
+//        System.out.println((byte) 0xf0);
+//        System.out.println(Integer.parseUnsignedInt("ffffffF0", 16));
 
     }
-   static void fun(int a){
-       System.out.println(a);
-   }
 }
 
