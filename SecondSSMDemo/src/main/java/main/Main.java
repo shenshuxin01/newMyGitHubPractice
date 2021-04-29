@@ -23,6 +23,17 @@ public class Main {
     public static void main(String[] args) throws Exception{
 //        funAnnoMybatis();
 //        funSpring2();
+//        funMybatis();
+        funSpringMybatis();
+    }
+
+    //这是spring+mybatis整合
+    private static void funSpringMybatis() throws Exception{
+        ClassPathXmlApplicationContext in = new ClassPathXmlApplicationContext("spring+mybatis-config.xml");
+        AnnoIDao mapperAnnoIDao = in.getBean("mapperAnnoIDao", AnnoIDao.class);
+        List<POJOUser> pojoUsers = mapperAnnoIDao.annoQuery("zx");
+        pojoUsers.forEach(pojoUser -> System.out.println(pojoUser));
+
     }
 
     //这是mybatis-xml开发
@@ -36,6 +47,7 @@ public class Main {
 
         //3、创建SqlSession对象
         SqlSession sqlSession = factory.openSession();
+
         // 也可以传入true参数，表示自动提交
         // SqlSession sqlSession = factory.openSession(true);
 
@@ -66,17 +78,34 @@ public class Main {
 
         //3、创建SqlSession对象
         SqlSession sqlSession = factory.openSession();
+        SqlSession sqlSession2 = factory.openSession();
         // 也可以传入true参数，表示自动提交
         // SqlSession sqlSession = factory.openSession(true);
 
         //4、使用SqlSession创建Dao接口的代理对象
         AnnoIDao mapper = sqlSession.getMapper(AnnoIDao.class);
+        AnnoIDao mapper2 = sqlSession2.getMapper(AnnoIDao.class);
+
 
         // 5、使用代理对象执行方法
-        mapper.annoAdd(new POJOUser("zx","123456765"));
+        mapper.annoAdd(new POJOUser("shenshuxin98","123456765"));
+        for (int i = 0; i < 1; i++) {
+            List<POJOUser> query = mapper.annoQuery("shenshuxin98");
+            query.forEach(pojoUser -> System.out.println(pojoUser));
+            sqlSession.commit();
 
-        List<POJOUser> query = mapper.annoQuery("shenshuxin98");
-        query.forEach(pojoUser -> System.out.println(pojoUser));
+            try{
+                 Thread.sleep(10000);
+            }catch (Exception e){
+
+            }
+
+            List<POJOUser> query2 = mapper2.annoQuery("shenshuxin98");
+            query2.forEach(pojoUser -> System.out.println(pojoUser));
+
+        }
+
+
 
         //6、关闭资源
         sqlSession.commit();

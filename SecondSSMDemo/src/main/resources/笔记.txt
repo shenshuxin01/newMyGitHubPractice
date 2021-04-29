@@ -15,7 +15,20 @@ mybatis：
             创建SqlSession对象
             sqlSession.getMapper()方法获取接口实现。
 
+    一级、二级缓存区别：
+            默认开启一级缓存：是sqlSession会话级别的。
+            二级缓存开启需要核心xml文件开启、mapper映射文件也要开启（注解也是）:是mapper级别的，namespace级别的，
+                不同的会话调用同一个mapper中的查询方法，走缓存
+
+    懒加载（延迟加载）：涉及到表连接
+
 springMVC:
-    是spring的子框架
+    是spring的子框架。给项目添加web支持。
+    在web.xml文件添加一组映射关系，引入DispatcherServlet类，当请求是.do结尾才走此映射。
+    在web.xml 同时添加引入springmvc.xml配置文件
+    在springmvc.xml文件使用注解支持，注解扫描，（有默认的可不写->）做一个配置springmvc视图解析器 视图解析器解析的视频路径为：前缀 + 后缀
+    在control层的类里添加@Controller注解、@RequestMapper注解
+    在index页面添加链接  xx/demo.do
+    配置tomcat
 
 

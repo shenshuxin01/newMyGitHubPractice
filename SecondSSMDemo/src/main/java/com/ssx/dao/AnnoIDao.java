@@ -2,9 +2,11 @@ package com.ssx.dao;
 
 import com.ssx.entity.POJOUser;
 import org.apache.ibatis.annotations.*;
+import org.springframework.cache.annotation.EnableCaching;
 
 import java.util.List;
 
+@CacheNamespace(blocking = true)
 public interface AnnoIDao {
     @Results(id = "selectAnno",
             value = {

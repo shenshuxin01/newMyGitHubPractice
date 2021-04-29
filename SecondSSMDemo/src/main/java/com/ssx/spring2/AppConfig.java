@@ -9,4 +9,5 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @ComponentScan(basePackageClasses = {com.ssx.entity.POJOUser.class})
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 public class AppConfig {
+
 }
