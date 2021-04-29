@@ -5,6 +5,7 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/ssx/spring2/AppConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-ioc-config.xml</file>
         </fileset>
       </configuration>
     </facet>

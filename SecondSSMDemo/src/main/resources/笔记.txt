@@ -1,0 +1,21 @@
+spring：
+    ioc控制反转，通过getBean获取对象
+    aop切面编程，通过监听指定的方法，在调用该方法时，会执行 @Before @After等方法。
+
+    main中：引入spring.xml配置文件 或者配置注解
+            .getBean()获取对象
+
+mybatis：
+    xml方式开发：使用mybatis核心配置文件，指定mapper.xml映射文件，映射文件实现接口里面的方法，增删改查
+    注解开发：使用mybatis核心配置文件，指定带注解的接口，在注解写增删改查
+
+    main中：引入mybatis.xml核心配置文件，包括数据库连接信息，连接池、指定的接口实现方式（注解、mapper文件）
+            创建SqlSessionFactoryBuilder对象
+            创建SqlSessionFactory对象
+            创建SqlSession对象
+            sqlSession.getMapper()方法获取接口实现。
+
+springMVC:
+    是spring的子框架
+
+

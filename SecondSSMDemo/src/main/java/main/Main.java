@@ -12,6 +12,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.log4j.Logger;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,7 +21,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws Exception{
-        funAnnoMybatis();
+//        funAnnoMybatis();
+//        funSpring2();
     }
 
     //这是mybatis-xml开发
@@ -86,6 +88,7 @@ public class Main {
     public static void funSpring2(){
         Logger logger = Logger.getLogger(Main.class);
         logger.info("使用注解类配置，不采用xml文件");
+//        ClassPathXmlApplicationContext xml = new ClassPathXmlApplicationContext("spring-ioc-config.xml");
         AnnotationConfigApplicationContext acac = new AnnotationConfigApplicationContext(AppConfig.class);
         Boy boy = acac.getBean("boy", Boy.class);
         boy.buy();

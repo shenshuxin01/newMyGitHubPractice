@@ -20,30 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目">
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/SecondSSMDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/dao/AnnoIDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/dao/IDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/entity/POJOUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/spring2/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/spring2/aop/DemoAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/spring2/ioc/Boy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/spring2/ioc/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/resources/mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/resources/spring-ioc-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/test/java/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/newMyGitHubPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/newMyGitHubPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/resources/笔记.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FavoriteDemo/src/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FavoriteDemo/src/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/SSM_LoginDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_LoginDemo/SSM_LoginDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondSSMDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SecondSSMDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/Spring-aop-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-aop-01/Spring-aop-01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondSSMDemo/SecondSSMDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SecondSSMDemo/SecondSSMDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/entity/POJOUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/entity/POJOUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/spring2/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/spring2/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/spring2/ioc/Boy.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/com/ssx/spring2/ioc/Boy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondSSMDemo/src/main/resources/spring-ioc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SecondSSMDemo/src/main/resources/spring-ioc-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +173,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="最外层根目录新增pom文件管理子项目" />
     <MESSAGE value="删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除" />
+    <MESSAGE value="新增spring-ioc+aop练习&#10;新增mybatis-开发，xml+注解开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增spring-ioc+aop练习&#10;新增mybatis-开发，xml+注解开发" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -205,10 +190,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1619609392965" />
-    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1619608823269">
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1619675834891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1619608823269" />
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1619675834891" />
     <state x="121" y="50" key="DiffContextDialog" timestamp="1619334802105">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -217,22 +202,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1619661282362" />
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom" timestamp="1619666977756">
+    <state width="1237" height="252" key="GridCell.Tab.0.bottom" timestamp="1619677050344">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619666977756" />
-    <state width="1237" height="184" key="GridCell.Tab.0.center" timestamp="1619666977756">
+    <state width="1237" height="252" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619677050344" />
+    <state width="1237" height="252" key="GridCell.Tab.0.center" timestamp="1619677050344">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1619666977756" />
-    <state width="1237" height="184" key="GridCell.Tab.0.left" timestamp="1619666977756">
+    <state width="1237" height="252" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1619677050344" />
+    <state width="1237" height="252" key="GridCell.Tab.0.left" timestamp="1619677050343">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1619666977756" />
-    <state width="1237" height="184" key="GridCell.Tab.0.right" timestamp="1619666977756">
+    <state width="1237" height="252" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1619677050343" />
+    <state width="1237" height="252" key="GridCell.Tab.0.right" timestamp="1619677050344">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1619666977756" />
+    <state width="1237" height="252" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1619677050344" />
     <state width="1237" height="184" key="GridCell.Tab.1.bottom" timestamp="1619592949506">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -257,14 +242,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="101" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334736658" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1619658573645">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1619674810025">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1619658573645" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1619520399972">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1619674810025" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1619670523481">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619520399972" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619670523481" />
     <state x="380" y="52" key="git4idea.branch.GitSmartOperationDialog" timestamp="1619334809719">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -1,7 +1,10 @@
 package com.ssx.entity;
 
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 
+@Component("pojoUser")
 public class POJOUser implements Serializable {
     private String password;
     private String name;
@@ -9,6 +12,9 @@ public class POJOUser implements Serializable {
     public POJOUser(String name, String password) {
         this.name = name;
         this.password = password;
+    }
+
+    public POJOUser() {
     }
 
     @Override
