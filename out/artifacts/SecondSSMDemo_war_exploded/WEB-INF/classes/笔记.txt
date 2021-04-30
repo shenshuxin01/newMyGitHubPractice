@@ -5,10 +5,6 @@ spring：
     main中：引入spring.xml配置文件 或者配置注解
             .getBean()获取对象
 
-    这是自定义springutil获得getbean
-    @Component
-    public class SpringUtil implements ApplicationContextAware {
-
 mybatis：
     xml方式开发：使用mybatis核心配置文件，指定mapper.xml映射文件，映射文件实现接口里面的方法，增删改查
     注解开发：使用mybatis核心配置文件，指定带注解的接口，在注解写增删改查
@@ -27,16 +23,6 @@ mybatis：
     懒加载（延迟加载）：涉及到表连接
 
 springMVC:
-    是spring的子框架。给项目添加web支持。
-    在web.xml文件添加一组映射关系，引入DispatcherServlet类，当请求是.do结尾才走此映射。
-    在web.xml 同时添加引入springmvc.xml配置文件
-    在springmvc.xml文件使用注解支持，注解扫描，（有默认的可不写->）做一个配置springmvc视图解析器 视图解析器解析的视频路径为：前缀 + 后缀
-    在control层的类里添加@Controller注解、@RequestMapper注解
-    在index页面添加链接  xx/demo.do
-    配置tomcat
-
-
-SSM整合：
-
+    是spring的子框架
 
 

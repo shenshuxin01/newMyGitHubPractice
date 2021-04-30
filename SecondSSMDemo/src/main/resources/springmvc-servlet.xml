@@ -9,11 +9,17 @@
     http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
     <context:component-scan base-package="com.ssx.mvc"/>
 
 
+    <context:component-scan base-package="com.ssx.util"/>
+    <import resource="spring+mybatis-config.xml"></import>
+
+
+
     <!-- 4.配置springmvc视图解析器 视图解析器解析的视频路径为：前缀 + 后缀 -->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/"/>
         <property name="suffix" value=".jsp" />
     </bean>

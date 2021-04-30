@@ -2,7 +2,7 @@ package com.ssx.dao;
 
 import com.ssx.entity.POJOUser;
 import org.apache.ibatis.annotations.*;
-import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.beans.factory.FactoryBean;
 
 import java.util.List;
 
