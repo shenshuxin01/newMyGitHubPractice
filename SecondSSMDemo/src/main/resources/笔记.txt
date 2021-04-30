@@ -1,4 +1,4 @@
-spring：
+### 一、 spring：
     ioc控制反转，通过getBean获取对象
     aop切面编程，通过监听指定的方法，在调用该方法时，会执行 @Before @After等方法。
 
@@ -9,7 +9,7 @@ spring：
     @Component
     public class SpringUtil implements ApplicationContextAware {
 
-mybatis：
+### 二、mybatis：
     xml方式开发：使用mybatis核心配置文件，指定mapper.xml映射文件，映射文件实现接口里面的方法，增删改查
     注解开发：使用mybatis核心配置文件，指定带注解的接口，在注解写增删改查
 
@@ -26,7 +26,7 @@ mybatis：
 
     懒加载（延迟加载）：涉及到表连接
 
-springMVC:
+### 三、springMVC:
     是spring的子框架。给项目添加web支持。
     在web.xml文件添加一组映射关系，引入DispatcherServlet类，当请求是.do结尾才走此映射。
     在web.xml 同时添加引入springmvc.xml配置文件
@@ -36,7 +36,34 @@ springMVC:
     配置tomcat
 
 
-SSM整合：
+### 四、SSM整合：
+    spring启动2种方式：
+              1、自己提供ApplicationContext自己创建Spring容器。在main方法
+                ClassPathXmlApplicationContext context =
+                                    new ClassPathXmlApplicationContext("spring.xml");
+                User user = (User) context.getBean();
 
+              2、Web项目中在web.xml中配置监听启动
+                <listener>
+                    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+                </listener>
+
+    springMVC启动：
+              在Web项目中在web.xml中配置映射
+                  <servlet>
+                      <servlet-name>springmvc</servlet-name>
+                      <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+                      <init-param>
+                          <param-name>contextConfigLocation</param-name>
+                          <param-value>classpath:springmvc-servlet.xml</param-value>
+                      </init-param>
+                      <!-- 表示容器再启动时立即加载servlet -->
+                      <load-on-startup>1</load-on-startup>
+                  </servlet>
+                  <servlet-mapping>
+                      <servlet-name>springmvc</servlet-name>
+                      <!-- 处理所有 结尾是 .do -->
+                      <url-pattern>*.do</url-pattern>
+                  </servlet-mapping>
 
 
