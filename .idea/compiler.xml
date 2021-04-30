@@ -20,7 +20,7 @@
     <bytecodeTargetLevel>
       <module name="Kafka_Demo" target="1.5" />
       <module name="LeetCodeDemo" target="8" />
-      <module name="Log4jDemo" target="8" />
+      <module name="Log4jDemo" target="1.5" />
       <module name="newMyGitHubPractice" target="8" />
       <module name="OtherDemo" target="1.5" />
       <module name="SecondSSMDemo" target="8" />

@@ -1,6 +1,7 @@
 package ssxlog4j;
 
 import org.apache.log4j.*;
+import ssxlog4j.mylevel.IDemoLevel;
 
 //import java.util.logging.Level;
 //import java.util.logging.Logger;
@@ -34,14 +35,14 @@ public class TestLog4j {
          */
 
         //使用默认的配置信息，不需要写log4j.properties
-        BasicConfigurator.configure();
+//        BasicConfigurator.configure();
+
         logger.setLevel(Level.INFO);
 //        logger.addAppender(new);
 
         logger.info("info1111");
         logger.debug("debug23");
         logger.warn("warn123");
-
 
     }
 }
