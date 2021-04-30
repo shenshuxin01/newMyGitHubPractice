@@ -24,18 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目">
-      <change afterPath="$PROJECT_DIR$/Log4jDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log4jDemo/src/main/java/ssxlog4j/mylevel/DemoLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log4jDemo/src/main/java/ssxlog4j/mylevel/IDemoLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log4jDemo/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log4jDemo/src/main/java/ssxlog4j/TestLog4j.java" beforeDir="false" afterPath="$PROJECT_DIR$/Log4jDemo/src/main/java/ssxlog4j/TestLog4j.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecondSSMDemo/SecondSSMDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SecondSSMDemo/SecondSSMDemo.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,9 +35,9 @@
       <list>
         <option value="@Aspect" />
         <option value="mybatis-config" />
+        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -90,28 +79,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Log4jDemo/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SecondSSMDemo/src/main/web" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\Log4jDemo\src\main\resources" />
-      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\web" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ssx.spring2" />
       <recent name="com.ssx.spring2.aop" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\web" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLog4j">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.40">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="SecondSSMDemo" />
@@ -128,19 +116,6 @@
     <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestDemo" />
       <module name="newMyGitHubPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLog4j" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssxlog4j.TestLog4j" />
-      <module name="Log4jDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ssxlog4j.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,11 +197,9 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.40" />
-      <item itemvalue="Application.TestLog4j" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLog4j" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestDemo" />
       </list>
@@ -253,7 +226,6 @@
       <workItem from="1619658298502" duration="275000" />
       <workItem from="1619658605388" duration="9374000" />
       <workItem from="1619744423870" duration="11313000" />
-      <workItem from="1619766190145" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="最外层根目录新增pom文件管理子项目">
       <created>1619332408737</created>
@@ -347,54 +319,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1619745781707" />
-    <state width="1237" height="199" key="GridCell.Tab.0.bottom" timestamp="1619767155680">
+    <state width="1005" height="277" key="GridCell.Tab.0.bottom" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619767155680" />
-    <state width="1237" height="199" key="GridCell.Tab.0.center" timestamp="1619767155680">
+    <state width="1005" height="277" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.0.center" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1619767155680" />
-    <state width="1237" height="199" key="GridCell.Tab.0.left" timestamp="1619767155679">
+    <state width="1005" height="277" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.0.left" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1619767155679" />
-    <state width="1237" height="199" key="GridCell.Tab.0.right" timestamp="1619767155680">
+    <state width="1005" height="277" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.0.right" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1619767155680" />
-    <state width="1005" height="277" key="GridCell.Tab.1.bottom" timestamp="1619758410790">
+    <state width="1005" height="277" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.1.bottom" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619758410790" />
-    <state width="1005" height="277" key="GridCell.Tab.1.center" timestamp="1619758410790">
+    <state width="1005" height="277" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.1.center" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1619758410790" />
-    <state width="1005" height="277" key="GridCell.Tab.1.left" timestamp="1619758410790">
+    <state width="1005" height="277" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.1.left" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1619758410790" />
-    <state width="1005" height="277" key="GridCell.Tab.1.right" timestamp="1619758410790">
+    <state width="1005" height="277" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.1.right" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1619758410790" />
-    <state width="1005" height="277" key="GridCell.Tab.2.bottom" timestamp="1619758410790">
+    <state width="1005" height="277" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.2.bottom" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619758410790" />
-    <state width="1005" height="277" key="GridCell.Tab.2.center" timestamp="1619758410790">
+    <state width="1005" height="277" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.2.center" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1619758410790" />
-    <state width="1005" height="277" key="GridCell.Tab.2.left" timestamp="1619758410790">
+    <state width="1005" height="277" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.2.left" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1619758410790" />
-    <state width="1005" height="277" key="GridCell.Tab.2.right" timestamp="1619758410790">
+    <state width="1005" height="277" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="277" key="GridCell.Tab.2.right" timestamp="1619758091046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1619758410790" />
+    <state width="1005" height="277" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
     <state width="1005" height="100" key="GridCell.Tab.3.bottom" timestamp="1619751706404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -435,14 +407,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="101" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334736658" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1619766331178">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1619753147262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1619766331178" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1619767483581">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1619753147262" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1619689183425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619767483581" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619689183425" />
     <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619680045371">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
