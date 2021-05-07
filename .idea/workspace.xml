@@ -25,16 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目">
-      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_25_14_47_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_25_14_47__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TESTDEMO.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TESTDEMO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,9 +221,9 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestDemo" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.40" />
       <item itemvalue="Application.TESTDEMO" />
       <item itemvalue="Application.NO_25" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.40" />
     </list>
     <recent_temporary>
       <list>
@@ -313,7 +305,8 @@
     <MESSAGE value="删除" />
     <MESSAGE value="新增spring-ioc+aop练习&#10;新增mybatis-开发，xml+注解开发" />
     <MESSAGE value="新增springMVC环境" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增springMVC环境" />
+    <MESSAGE value="日常更新LeetCode刷题" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常更新LeetCode刷题" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -453,10 +446,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1620373077016" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1620282286348">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1620376162291">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620282286348" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620376162291" />
     <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619680045371">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
