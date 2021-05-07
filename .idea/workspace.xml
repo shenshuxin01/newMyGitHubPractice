@@ -24,7 +24,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目" />
+    <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目">
+      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_25_14_47_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_25_14_47__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TESTDEMO.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TESTDEMO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,27 +90,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SecondSSMDemo/src/main/web" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../zkr/项目资料/德华安顾/project/csservice" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main" />
-      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ssx.spring2" />
-      <recent name="com.ssx.spring2.aop" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\web" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ssx" />
+      <recent name="com.ssx.spring2" />
+      <recent name="com.ssx.spring2.aop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main" />
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.40">
+  <component name="RunManager" selected="Application.NO_25">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="SecondSSMDemo" />
@@ -109,6 +122,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NO_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssx.NO_25" />
+      <module name="LeetCodeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TESTDEMO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TESTDEMO" />
+      <module name="LeetCodeDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,9 +230,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.40" />
+      <item itemvalue="Application.TESTDEMO" />
+      <item itemvalue="Application.NO_25" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NO_25" />
+        <item itemvalue="Application.TESTDEMO" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestDemo" />
       </list>
@@ -226,6 +263,11 @@
       <workItem from="1619658298502" duration="275000" />
       <workItem from="1619658605388" duration="9374000" />
       <workItem from="1619744423870" duration="11313000" />
+      <workItem from="1620282151497" duration="345000" />
+      <workItem from="1620298215170" duration="616000" />
+      <workItem from="1620313898224" duration="29000" />
+      <workItem from="1620351879465" duration="48000" />
+      <workItem from="1620361207617" duration="10087000" />
     </task>
     <task id="LOCAL-00001" summary="最外层根目录新增pom文件管理子项目">
       <created>1619332408737</created>
@@ -299,10 +341,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1619748257757" />
-    <state x="262" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1619687291151">
+    <state x="262" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1619777978165">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="262" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1619687291151" />
+    <state x="262" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1619777978165" />
     <state x="430" y="246" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1619745782911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -315,58 +357,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334802105" />
-    <state x="400" y="95" key="FileChooserDialogImpl" timestamp="1619745781707">
+    <state x="400" y="95" key="FileChooserDialogImpl" timestamp="1620298229804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1619745781707" />
-    <state width="1005" height="277" key="GridCell.Tab.0.bottom" timestamp="1619758091046">
+    <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620298229804" />
+    <state width="1237" height="73" key="GridCell.Tab.0.bottom" timestamp="1620375018946">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.0.center" timestamp="1619758091046">
+    <state width="1237" height="73" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620375018946" />
+    <state width="1237" height="73" key="GridCell.Tab.0.center" timestamp="1620375018946">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.0.left" timestamp="1619758091046">
+    <state width="1237" height="73" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620375018946" />
+    <state width="1237" height="73" key="GridCell.Tab.0.left" timestamp="1620375018946">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.0.right" timestamp="1619758091046">
+    <state width="1237" height="73" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620375018946" />
+    <state width="1237" height="73" key="GridCell.Tab.0.right" timestamp="1620375018946">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.1.bottom" timestamp="1619758091046">
+    <state width="1237" height="73" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620375018946" />
+    <state width="1237" height="73" key="GridCell.Tab.1.bottom" timestamp="1620375019036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.1.center" timestamp="1619758091046">
+    <state width="1237" height="73" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620375019036" />
+    <state width="1237" height="73" key="GridCell.Tab.1.center" timestamp="1620375019036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.1.left" timestamp="1619758091046">
+    <state width="1237" height="73" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1620375019036" />
+    <state width="1237" height="73" key="GridCell.Tab.1.left" timestamp="1620375019036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.1.right" timestamp="1619758091046">
+    <state width="1237" height="73" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1620375019036" />
+    <state width="1237" height="73" key="GridCell.Tab.1.right" timestamp="1620375019036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.2.bottom" timestamp="1619758091046">
+    <state width="1237" height="73" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1620375019036" />
+    <state width="1005" height="2" key="GridCell.Tab.2.bottom" timestamp="1619778540258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.2.center" timestamp="1619758091046">
+    <state width="1005" height="2" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1619778540258" />
+    <state width="1005" height="2" key="GridCell.Tab.2.center" timestamp="1619778540258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.2.left" timestamp="1619758091046">
+    <state width="1005" height="2" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1619778540258" />
+    <state width="1005" height="2" key="GridCell.Tab.2.left" timestamp="1619778540258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
-    <state width="1005" height="277" key="GridCell.Tab.2.right" timestamp="1619758091046">
+    <state width="1005" height="2" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1619778540258" />
+    <state width="1005" height="2" key="GridCell.Tab.2.right" timestamp="1619778540258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="277" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1619758091046" />
+    <state width="1005" height="2" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1619778540258" />
     <state width="1005" height="100" key="GridCell.Tab.3.bottom" timestamp="1619751706404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -407,14 +449,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="101" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334736658" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1619753147262">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1620373077016">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1619753147262" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1619689183425">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1620373077016" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1620282286348">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1619689183425" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620282286348" />
     <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619680045371">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -423,10 +465,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="380" y="52" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334809719" />
-    <state x="28" y="1" key="new project wizard" timestamp="1619601509047">
+    <state x="41" y="0" key="new project wizard" timestamp="1619778170331">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1619601509047" />
+    <state x="41" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1619778170331" />
+    <state x="383" y="213" width="615" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1620372726259">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="383" y="213" width="615" height="282" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.680@0.0.1280.680" timestamp="1620372726259" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1619747149950">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

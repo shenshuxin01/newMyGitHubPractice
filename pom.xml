@@ -29,6 +29,7 @@
         <module>SSM_LoginDemo</module>
         <module>Z__OtherDemo</module>
         <module>SecondSSMDemo</module>
+        <module>ThirdSSMDemo</module>
     </modules>
 
     <dependencies>

@@ -4,6 +4,6 @@ public class TESTDEMO {
 
         int i = 2;
         int j=2;
-        System.out.println(j);
+        System.out.println(i++ ==3);
     }
 }
