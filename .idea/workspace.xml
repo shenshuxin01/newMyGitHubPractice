@@ -25,14 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目">
-      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_28.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/target/classes/ssx/NO_Temp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01.war" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TESTDEMO.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TESTDEMO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +95,8 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\web" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -109,25 +104,12 @@
       <recent name="com.ssx.spring2" />
       <recent name="com.ssx.spring2.aop" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\web" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NO_27">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="SecondSSMDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NO_28">
     <configuration name="NO_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ssx.NO_25" />
       <module name="LeetCodeDemo" />
@@ -156,6 +138,19 @@
     </configuration>
     <configuration name="NO_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ssx.NO_27" />
+      <module name="LeetCodeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NO_28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssx.NO_28" />
       <module name="LeetCodeDemo" />
       <extension name="coverage">
         <pattern>
@@ -321,21 +316,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.TESTDEMO" />
       <item itemvalue="Application.NO_25" />
       <item itemvalue="Application.NO_26" />
+      <item itemvalue="Application.NO_27" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.40" />
       <item itemvalue="Tomcat Server.springmvcday01-tomcat" />
-      <item itemvalue="Application.NO_27" />
+      <item itemvalue="Application.NO_28" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NO_28" />
+        <item itemvalue="Application.TESTDEMO" />
         <item itemvalue="Application.NO_27" />
         <item itemvalue="Application.NO_26" />
         <item itemvalue="Application.NO_25" />
-        <item itemvalue="Application.TESTDEMO" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +363,9 @@
       <workItem from="1620438301420" duration="1929000" />
       <workItem from="1620452690497" duration="2163000" />
       <workItem from="1620488215691" duration="1241000" />
-      <workItem from="1620627602685" duration="348000" />
+      <workItem from="1620627602685" duration="720000" />
+      <workItem from="1620628367975" duration="41000" />
+      <workItem from="1620711456838" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="最外层根目录新增pom文件管理子项目">
       <created>1619332408737</created>
@@ -405,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620376847125</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LC日常更新">
+      <created>1620628083573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620628083573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +433,8 @@
     <MESSAGE value="新增spring-ioc+aop练习&#10;新增mybatis-开发，xml+注解开发" />
     <MESSAGE value="新增springMVC环境" />
     <MESSAGE value="日常更新LeetCode刷题" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常更新LeetCode刷题" />
+    <MESSAGE value="LC日常更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC日常更新" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -481,38 +486,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620438953297" />
-    <state width="1237" height="107" key="GridCell.Tab.0.bottom" timestamp="1620454874366">
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1620712797167">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="107" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620454874366" />
-    <state width="1237" height="107" key="GridCell.Tab.0.center" timestamp="1620454874365">
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620712797167" />
+    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1620712797167">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="107" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620454874365" />
-    <state width="1237" height="107" key="GridCell.Tab.0.left" timestamp="1620454874365">
+    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620712797167" />
+    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1620712797167">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="107" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620454874365" />
-    <state width="1237" height="107" key="GridCell.Tab.0.right" timestamp="1620454874366">
+    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620712797167" />
+    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1620712797167">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="107" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620454874366" />
-    <state width="1005" height="274" key="GridCell.Tab.1.bottom" timestamp="1620442702587">
+    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620712797167" />
+    <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1620712713316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="274" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620442702587" />
-    <state width="1005" height="274" key="GridCell.Tab.1.center" timestamp="1620442702587">
+    <state width="1237" height="194" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620712713316" />
+    <state width="1237" height="194" key="GridCell.Tab.1.center" timestamp="1620712713316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="274" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1620442702587" />
-    <state width="1005" height="274" key="GridCell.Tab.1.left" timestamp="1620442702587">
+    <state width="1237" height="194" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1620712713316" />
+    <state width="1237" height="194" key="GridCell.Tab.1.left" timestamp="1620712713316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="274" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1620442702587" />
-    <state width="1005" height="274" key="GridCell.Tab.1.right" timestamp="1620442702587">
+    <state width="1237" height="194" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1620712713316" />
+    <state width="1237" height="194" key="GridCell.Tab.1.right" timestamp="1620712713316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="274" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1620442702587" />
+    <state width="1237" height="194" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1620712713316" />
     <state width="1005" height="274" key="GridCell.Tab.2.bottom" timestamp="1620442702587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -577,10 +582,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="468" y="253" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1620376975862" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1620377046414">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1620711481228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620377046414" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620711481228" />
     <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619680045371">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
