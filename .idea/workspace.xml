@@ -25,9 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="最外层根目录新增pom文件管理子项目">
-      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TESTDEMO.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TESTDEMO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/target/test-classes/TESTDEMO.class" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/target/test-classes/TESTDEMO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,20 +110,7 @@
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NO_28">
-    <configuration name="NO_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssx.NO_25" />
-      <module name="LeetCodeDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ssx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NO_29">
     <configuration name="NO_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ssx.NO_26" />
       <module name="LeetCodeDemo" />
@@ -151,6 +139,19 @@
     </configuration>
     <configuration name="NO_28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ssx.NO_28" />
+      <module name="LeetCodeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ssx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NO_29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ssx.NO_29" />
       <module name="LeetCodeDemo" />
       <extension name="coverage">
         <pattern>
@@ -317,20 +318,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.TESTDEMO" />
-      <item itemvalue="Application.NO_25" />
       <item itemvalue="Application.NO_26" />
       <item itemvalue="Application.NO_27" />
+      <item itemvalue="Application.NO_28" />
+      <item itemvalue="Application.NO_29" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.40" />
       <item itemvalue="Tomcat Server.springmvcday01-tomcat" />
-      <item itemvalue="Application.NO_28" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NO_28" />
+        <item itemvalue="Application.NO_29" />
         <item itemvalue="Application.TESTDEMO" />
+        <item itemvalue="Application.NO_28" />
         <item itemvalue="Application.NO_27" />
         <item itemvalue="Application.NO_26" />
-        <item itemvalue="Application.NO_25" />
       </list>
     </recent_temporary>
   </component>
@@ -366,6 +367,8 @@
       <workItem from="1620627602685" duration="720000" />
       <workItem from="1620628367975" duration="41000" />
       <workItem from="1620711456838" duration="1348000" />
+      <workItem from="1620884011267" duration="2398000" />
+      <workItem from="1620970600398" duration="2271000" />
     </task>
     <task id="LOCAL-00001" summary="最外层根目录新增pom文件管理子项目">
       <created>1619332408737</created>
@@ -486,38 +489,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620438953297" />
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1620712797167">
+    <state width="1237" height="159" key="GridCell.Tab.0.bottom" timestamp="1620972252499">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620712797167" />
-    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1620712797167">
+    <state width="1237" height="159" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620972252499" />
+    <state width="1237" height="159" key="GridCell.Tab.0.center" timestamp="1620972252499">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620712797167" />
-    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1620712797167">
+    <state width="1237" height="159" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620972252499" />
+    <state width="1237" height="159" key="GridCell.Tab.0.left" timestamp="1620972252499">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620712797167" />
-    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1620712797167">
+    <state width="1237" height="159" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620972252499" />
+    <state width="1237" height="159" key="GridCell.Tab.0.right" timestamp="1620972252499">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620712797167" />
-    <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1620712713316">
+    <state width="1237" height="159" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620972252499" />
+    <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1620713204216">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620712713316" />
-    <state width="1237" height="194" key="GridCell.Tab.1.center" timestamp="1620712713316">
+    <state width="1237" height="194" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620713204216" />
+    <state width="1237" height="194" key="GridCell.Tab.1.center" timestamp="1620713204216">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1620712713316" />
-    <state width="1237" height="194" key="GridCell.Tab.1.left" timestamp="1620712713316">
+    <state width="1237" height="194" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1620713204216" />
+    <state width="1237" height="194" key="GridCell.Tab.1.left" timestamp="1620713204216">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1620712713316" />
-    <state width="1237" height="194" key="GridCell.Tab.1.right" timestamp="1620712713316">
+    <state width="1237" height="194" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1620713204216" />
+    <state width="1237" height="194" key="GridCell.Tab.1.right" timestamp="1620713204216">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1620712713316" />
+    <state width="1237" height="194" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1620713204216" />
     <state width="1005" height="274" key="GridCell.Tab.2.bottom" timestamp="1620442702587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -582,10 +585,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="468" y="253" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1620376975862" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1620711481228">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1620713180540">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620711481228" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1620713180540" />
     <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619680045371">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
