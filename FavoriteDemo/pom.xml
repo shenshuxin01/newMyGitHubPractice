@@ -5,8 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>newMyGitHubPractice</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>FavoriteDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -21,30 +20,17 @@
         </plugins>
     </build>
 
-    <modules>
-        <module>Kafka_Demo</module>
-        <module>FavoriteDemo</module>
-        <module>LeetCodeDemo</module>
-        <module>Spring-aop-01</module>
-        <module>SpringMVCday01</module>
-        <module>SSM_LoginDemo</module>
-        <module>Z__OtherDemo</module>
-        <module>SecondSSMDemo</module>
-        <module>ThirdSSMDemo</module>
-    </modules>
-
     <dependencies>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.12</version>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.1.2</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>mysql</groupId>-->
-<!--            <artifactId>mysql-connector-java</artifactId>-->
-<!--            <version>8.0.22</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
+        </dependency>
     </dependencies>
-
 
 </project>
