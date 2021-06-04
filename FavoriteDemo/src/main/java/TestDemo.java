@@ -1,7 +1,11 @@
+
 import java.nio.charset.StandardCharsets;
 
 public class TestDemo {
     public static void main(String[] args) {
+        System.out.println(1);
+
+        System.out.println(args[323]);
 //        byte[] bytes = "😀".getBytes(StandardCharsets.UTF_8);
 //        for (byte aByte : bytes) {
 ////            System.out.println(aByte);

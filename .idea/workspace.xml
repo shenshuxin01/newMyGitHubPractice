@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="FavoriteDemo:jar" />
+      <artifact name="ThirdSSMDemo:war" />
     </artifacts-to-build>
   </component>
   <component name="BranchesTreeState">
@@ -25,8 +25,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="LC-新增符合最长的字串-匹配括号">
-      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/java/ssx/controller/ControllerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/java/ssx/dao/Idao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/java/ssx/service/ServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/webapp/first.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdSSMDemo/src/test/java/ssx/dao/IdaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FavoriteDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FavoriteDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FavoriteDemo/src/main/java/DemoFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/FavoriteDemo/src/main/java/DemoFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FavoriteDemo/src/main/java/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FavoriteDemo/src/main/java/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdSSMDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ThirdSSMDemo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +53,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="@Aspect" />
-        <option value="mybatis-config" />
-        <option value="Interface" />
+        <option value="Jsp File" />
         <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="mybatis-config" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -80,13 +99,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../其他/开源社区/listen1_chrome_extension" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ThirdSSMDemo/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3" />
@@ -94,7 +117,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ssx.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\ThirdSSMDemo\src\main\resources" />
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\ThirdSSMDemo\src\main\webapp" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\web" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
@@ -104,18 +135,19 @@
       <recent name="com.ssx.spring2.aop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\ThirdSSMDemo\src\main\webapp" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\FavoriteDemo\src\main\java" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main" />
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NO_33">
-    <configuration name="ExcelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excelapi.ExcelDemo" />
+  <component name="RunManager" selected="Tomcat Server.Tomcat-SSM3">
+    <configuration name="DemoFile (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.DemoFile" />
       <module name="FavoriteDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excelapi.*" />
+          <option name="PATTERN" value="main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NO_30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssx.NO_30" />
-      <module name="LeetCodeDemo" />
+    <configuration name="DemoFile (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoFile" />
+      <module name="FavoriteDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Main" />
+      <module name="Kafka_Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssx.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,41 +175,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NO_31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssx.NO_31" />
-      <module name="LeetCodeDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ssx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <module name="FavoriteDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NO_32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssx.NO_32" />
-      <module name="LeetCodeDemo" />
+    <configuration name="IdaoTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThirdSSMDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ssx.*" />
+          <option name="PATTERN" value="ssx.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NO_33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ssx.NO_33" />
-      <module name="LeetCodeDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ssx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="ssx.dao" />
+      <option name="MAIN_CLASS_NAME" value="ssx.dao.IdaoTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,6 +271,79 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat-SSM3" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.40" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ThirdSSMDemo_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ThirdSSMDemo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ThirdSSMDemo_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_newMyGitHubPractice_4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59365" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ThirdSSMDemo:war" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="springmvcday01-tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.40" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringMVCday01_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -322,21 +418,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NO_30" />
-      <item itemvalue="Application.ExcelDemo" />
-      <item itemvalue="Application.NO_31" />
-      <item itemvalue="Application.NO_32" />
-      <item itemvalue="Application.NO_33" />
+      <item itemvalue="Application.DemoFile (1)" />
+      <item itemvalue="Application.DemoFile (2)" />
+      <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Tomcat-SSM3" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.40" />
       <item itemvalue="Tomcat Server.springmvcday01-tomcat" />
+      <item itemvalue="JUnit.IdaoTest.testAdd" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NO_33" />
-        <item itemvalue="Application.NO_32" />
-        <item itemvalue="Application.NO_31" />
-        <item itemvalue="Application.ExcelDemo" />
-        <item itemvalue="Application.NO_30" />
+        <item itemvalue="JUnit.IdaoTest.testAdd" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.DemoFile (2)" />
+        <item itemvalue="Application.DemoFile (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -386,6 +483,13 @@
       <workItem from="1622543647021" duration="99000" />
       <workItem from="1622630843371" duration="2597000" />
       <workItem from="1622682187490" duration="1132000" />
+      <workItem from="1622701956875" duration="153000" />
+      <workItem from="1622704762245" duration="175000" />
+      <workItem from="1622704953573" duration="426000" />
+      <workItem from="1622706000788" duration="4660000" />
+      <workItem from="1622769017409" duration="2913000" />
+      <workItem from="1622803256416" duration="610000" />
+      <workItem from="1622819061133" duration="8969000" />
     </task>
     <task id="LOCAL-00001" summary="最外层根目录新增pom文件管理子项目">
       <created>1619332408737</created>
@@ -482,10 +586,14 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="121" y="0" key="#Project_Structure" timestamp="1622630988953">
+    <state x="267" y="19" key="#Inspections" timestamp="1622819291724">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1622630988953" />
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1622819291724" />
+    <state x="121" y="0" key="#Project_Structure" timestamp="1622717355716">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1622717355716" />
     <state x="33" y="182" key="#SQL_Dialects" timestamp="1619670021172">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -494,10 +602,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="95" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1619746639895" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621330666611">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622770794995">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1621330666611" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1622770794995" />
     <state x="370" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619609392965">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -510,10 +618,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="130" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1621330742753" />
-    <state x="262" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1619777978165">
+    <state x="262" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622717908831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="262" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1619777978165" />
+    <state x="262" y="18" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1622717908831" />
     <state x="430" y="246" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1619745782911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -522,6 +630,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="213" y="263" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1619682927563" />
+    <state x="354" y="20" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1622770031309">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="354" y="20" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1622770031309" />
     <state x="384" y="171" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1620438436770">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -530,90 +642,106 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334802105" />
-    <state x="400" y="95" key="FileChooserDialogImpl" timestamp="1622436381264">
+    <state x="400" y="95" key="FileChooserDialogImpl" timestamp="1622705190168">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1622436381264" />
-    <state width="1237" height="93" key="GridCell.Tab.0.bottom" timestamp="1622527628946">
+    <state x="400" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1622705190168" />
+    <state width="1037" height="195" key="GridCell.Tab.0.bottom" timestamp="1622825891170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="93" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622527628946" />
-    <state width="1237" height="93" key="GridCell.Tab.0.center" timestamp="1622527628946">
+    <state width="1037" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622825891170" />
+    <state width="1037" height="195" key="GridCell.Tab.0.center" timestamp="1622825891170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="93" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622527628946" />
-    <state width="1237" height="93" key="GridCell.Tab.0.left" timestamp="1622527628945">
+    <state width="1037" height="195" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622825891170" />
+    <state width="1037" height="195" key="GridCell.Tab.0.left" timestamp="1622825891170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="93" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622527628945" />
-    <state width="1237" height="93" key="GridCell.Tab.0.right" timestamp="1622527628946">
+    <state width="1037" height="195" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622825891170" />
+    <state width="1037" height="195" key="GridCell.Tab.0.right" timestamp="1622825891170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="93" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622527628946" />
-    <state width="1237" height="197" key="GridCell.Tab.1.bottom" timestamp="1621576436122">
+    <state width="1037" height="195" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622825891170" />
+    <state width="1037" height="195" key="GridCell.Tab.1.bottom" timestamp="1622825891171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621576436122" />
-    <state width="1237" height="197" key="GridCell.Tab.1.center" timestamp="1621576436121">
+    <state width="1037" height="195" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622825891171" />
+    <state width="1037" height="195" key="GridCell.Tab.1.center" timestamp="1622825891171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1621576436121" />
-    <state width="1237" height="197" key="GridCell.Tab.1.left" timestamp="1621576436121">
+    <state width="1037" height="195" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1622825891171" />
+    <state width="1037" height="195" key="GridCell.Tab.1.left" timestamp="1622825891171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1621576436121" />
-    <state width="1237" height="197" key="GridCell.Tab.1.right" timestamp="1621576436122">
+    <state width="1037" height="195" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1622825891171" />
+    <state width="1037" height="195" key="GridCell.Tab.1.right" timestamp="1622825891171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="197" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1621576436122" />
-    <state width="1005" height="274" key="GridCell.Tab.2.bottom" timestamp="1620442702587">
+    <state width="1037" height="195" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1622825891171" />
+    <state width="1037" height="195" key="GridCell.Tab.2.bottom" timestamp="1622825891171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="274" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620442702587" />
-    <state width="1005" height="274" key="GridCell.Tab.2.center" timestamp="1620442702587">
+    <state width="1037" height="195" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622825891171" />
+    <state width="1037" height="195" key="GridCell.Tab.2.center" timestamp="1622825891170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="274" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1620442702587" />
-    <state width="1005" height="274" key="GridCell.Tab.2.left" timestamp="1620442702587">
+    <state width="1037" height="195" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1622825891170" />
+    <state width="1037" height="195" key="GridCell.Tab.2.left" timestamp="1622825891170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="274" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1620442702587" />
-    <state width="1005" height="274" key="GridCell.Tab.2.right" timestamp="1620442702587">
+    <state width="1037" height="195" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1622825891170" />
+    <state width="1037" height="195" key="GridCell.Tab.2.right" timestamp="1622825891170">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="274" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1620442702587" />
-    <state width="1005" height="239" key="GridCell.Tab.3.bottom" timestamp="1620438792448">
+    <state width="1037" height="195" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1622825891170" />
+    <state width="1007" height="29" key="GridCell.Tab.3.bottom" timestamp="1622720441017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="239" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620438792448" />
-    <state width="1005" height="239" key="GridCell.Tab.3.center" timestamp="1620438792448">
+    <state width="1007" height="29" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622720441017" />
+    <state width="1007" height="29" key="GridCell.Tab.3.center" timestamp="1622720441017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="239" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1620438792448" />
-    <state width="1005" height="239" key="GridCell.Tab.3.left" timestamp="1620438792448">
+    <state width="1007" height="29" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1622720441017" />
+    <state width="1007" height="29" key="GridCell.Tab.3.left" timestamp="1622720441017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="239" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1620438792448" />
-    <state width="1005" height="239" key="GridCell.Tab.3.right" timestamp="1620438792448">
+    <state width="1007" height="29" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1622720441017" />
+    <state width="1007" height="29" key="GridCell.Tab.3.right" timestamp="1622720441017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="239" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1620438792448" />
-    <state width="1005" height="239" key="GridCell.Tab.4.bottom" timestamp="1620438794505">
+    <state width="1007" height="29" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1622720441017" />
+    <state width="1007" height="523" key="GridCell.Tab.4.bottom" timestamp="1622718983238">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="239" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620438794505" />
-    <state width="1005" height="239" key="GridCell.Tab.4.center" timestamp="1620438794505">
+    <state width="1007" height="523" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622718983237" />
+    <state width="1007" height="523" key="GridCell.Tab.4.center" timestamp="1622718983237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="239" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1620438794505" />
-    <state width="1005" height="239" key="GridCell.Tab.4.left" timestamp="1620438794504">
+    <state width="1007" height="523" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1622718983237" />
+    <state width="1007" height="523" key="GridCell.Tab.4.left" timestamp="1622718983237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="239" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1620438794504" />
-    <state width="1005" height="239" key="GridCell.Tab.4.right" timestamp="1620438794505">
+    <state width="1007" height="523" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1622718983237" />
+    <state width="1007" height="523" key="GridCell.Tab.4.right" timestamp="1622718983237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1005" height="239" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1620438794505" />
+    <state width="1007" height="523" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1622718983237" />
+    <state width="1007" height="523" key="GridCell.Tab.5.bottom" timestamp="1622718992454">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1007" height="523" key="GridCell.Tab.5.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622718992454" />
+    <state width="1007" height="523" key="GridCell.Tab.5.center" timestamp="1622718992454">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1007" height="523" key="GridCell.Tab.5.center/0.0.1280.680@0.0.1280.680" timestamp="1622718992454" />
+    <state width="1007" height="523" key="GridCell.Tab.5.left" timestamp="1622718992454">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1007" height="523" key="GridCell.Tab.5.left/0.0.1280.680@0.0.1280.680" timestamp="1622718992454" />
+    <state width="1007" height="523" key="GridCell.Tab.5.right" timestamp="1622718992454">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1007" height="523" key="GridCell.Tab.5.right/0.0.1280.680@0.0.1280.680" timestamp="1622718992454" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1621328548772">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -626,22 +754,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="101" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1619334736658" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1621330810211">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1622717970950">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1621330810211" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1622717970950" />
     <state x="468" y="253" key="VCS.ChangelistChooser" timestamp="1620376975862">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="468" y="253" key="VCS.ChangelistChooser/0.0.1280.680@0.0.1280.680" timestamp="1620376975862" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1621665734588">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1622683646013">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1621665734588" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1622683646013" />
+    <state x="439" y="118" key="chooseDestDirectoryDialog" timestamp="1622704860793">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="439" y="118" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1622704860793" />
     <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619680045371">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="439" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1619680045371" />
+    <state x="412" y="147" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622820434628">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="412" y="147" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1622820434628" />
     <state x="380" y="52" key="git4idea.branch.GitSmartOperationDialog" timestamp="1619334809719">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

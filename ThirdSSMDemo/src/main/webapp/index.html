@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f() {
+        var elementById = document.getElementById("inputid").value;
+        // alert(elementById);
+        if (elementById == ""){
+            alert("输入值哦");
+            return;
+        }
+        var presuf =  (("one/"+elementById)+".do");
+        window.location.href = presuf;
+    }
+</script>
+
+
+<!--http://localhost:8080/ThirdSSMDemo_war/one/one.do-->
+<!--    <a href="one/a.do">测试跳转链接one/one.do</a>  &lt;!&ndash;这种最前面没有/ 在运行的时候他会自动补全前面的 “${pageContext.request.contextPath }”&ndash;&gt;-->
+
+<br>
+<!--http://localhost:8080/one/one.do-->
+<!--    <a href="/one/one.do">测试跳转链接/one/one.do</a>  &lt;!&ndash;这种最前面有/ 在运行的时候不会补&ndash;&gt;-->
+
+    name：<input type="text" id="inputid" >
+    <input type="button" value="buttonn" onclick="f()">
+
+</body>
+</html>

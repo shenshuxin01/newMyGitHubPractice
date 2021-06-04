@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <mappers>
+<!--&lt;!&ndash;        <mapper resource="/dao/StudentDao.xml"></mapper>&ndash;&gt; 适合mapper.xml方式开发-->
+<!--&lt;!&ndash;        <mapper class="ssx.service"></mapper>&ndash;&gt;适合注解开发-->
+        <package name="ssx.dao"/><!-- 适合xml+注解开发-->
+    </mappers>
+</configuration>
