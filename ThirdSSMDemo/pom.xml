@@ -21,6 +21,7 @@
     </properties>
 
     <dependencies>
+
         <!-- Spring核心依赖 -->
         <dependency>
             <groupId>org.springframework</groupId>

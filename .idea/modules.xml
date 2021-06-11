@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Kafka_Demo/Kafka_Demo.iml" filepath="$PROJECT_DIR$/Kafka_Demo/Kafka_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCodeDemo/LeetCodeDemo.iml" filepath="$PROJECT_DIR$/LeetCodeDemo/LeetCodeDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Log4jDemo/Log4jDemo.iml" filepath="$PROJECT_DIR$/Log4jDemo/Log4jDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nexus_Demo/Nexus_Demo.iml" filepath="$PROJECT_DIR$/Nexus_Demo/Nexus_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Z__OtherDemo/OtherDemo.iml" filepath="$PROJECT_DIR$/Z__OtherDemo/OtherDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SSM_LoginDemo/SSM_LoginDemo.iml" filepath="$PROJECT_DIR$/SSM_LoginDemo/SSM_LoginDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondSSMDemo/SecondSSMDemo.iml" filepath="$PROJECT_DIR$/SecondSSMDemo/SecondSSMDemo.iml" />

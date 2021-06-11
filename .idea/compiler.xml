@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Kafka_Demo" />
+        <module name="Nexus_Demo" />
         <module name="Log4jDemo" />
         <module name="ThirdSSMDemo" />
         <module name="SecondSSMDemo" />
@@ -14,8 +15,8 @@
         <module name="Z__OtherDemo" />
         <module name="SpringMVCday01" />
         <module name="FavoriteDemo" />
-        <module name="LeetCodeDemo" />
         <module name="SSM_LoginDemo" />
+        <module name="LeetCodeDemo" />
         <module name="OtherDemo" />
       </profile>
     </annotationProcessing>
@@ -25,11 +26,13 @@
       <module name="LeetCodeDemo" target="8" />
       <module name="Log4jDemo" target="1.5" />
       <module name="newMyGitHubPractice" target="8" />
+      <module name="Nexus_Demo" target="8" />
       <module name="OtherDemo" target="1.5" />
       <module name="SecondSSMDemo" target="8" />
       <module name="Spring-aop-01" target="1.5" />
       <module name="SpringMVCday01" target="1.8" />
       <module name="SSM_LoginDemo" target="1.5" />
+      <module name="SSM_SSX20210605" target="1.5" />
       <module name="ThirdSSMDemo" target="8" />
       <module name="Z__OtherDemo" target="1.5" />
     </bytecodeTargetLevel>

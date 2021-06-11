@@ -31,6 +31,7 @@
         <module>Z__OtherDemo</module>
         <module>SecondSSMDemo</module>
         <module>ThirdSSMDemo</module>
+        <module>Nexus_Demo</module>
     </modules>
 
     <dependencies>
