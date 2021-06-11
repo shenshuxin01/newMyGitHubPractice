@@ -6,4 +6,5 @@ LeetCodeDemo/.idea
 target
 */target
 *.iml
+*.class
 
