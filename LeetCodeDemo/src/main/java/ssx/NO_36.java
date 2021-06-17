@@ -1,6 +1,9 @@
 package ssx;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 
 /**
  *
@@ -59,14 +62,32 @@ public class NO_36 {
 
     public static void main(String[] args) {
         long l = System.currentTimeMillis();
+        /**
+         *
+         * [["5","3",".",".","7",".",".",".","."],
+         * ["6",".",".","1","9","5",".",".","."],
+         * [".","9","8",".",".",".",".","6","."],
+         * ["8",".",".",".","6",".",".",".","3"],
+         * ["4",".",".","8",".","3",".",".","1"],
+         * ["7",".",".",".","2",".",".",".","6"],
+         * [".","6",".",".",".",".","2","8","."],
+         * [".",".",".","4","1","9",".",".","5"],
+         * [".",".",".",".","8",".",".","7","9"]]
+         */
+        char[][] board = new char[9][9];
 
-        char[][] board = new char[3][3];
-        board[0][0]='1';
-        board[0][1]='2';
-        board[0][2]='3';
-        board[1][0]='4';
-        board[1][1]='5';
-        board[1][2]='6';
+        String s="\"5\",\"3\",\".\",\".\",\"7\",\".\",\".\",\".\",\".\"],[\"6\",\".\",\".\",\"1\",\"9\",\"5\",\".\",\".\",\".\"],[\".\",\"9\",\"8\",\".\",\".\",\".\",\".\",\"6\",\".\"],[\"8\",\".\",\".\",\".\",\"6\",\".\",\".\",\".\",\"3\"],[\"4\",\".\",\".\",\"8\",\".\",\"3\",\".\",\".\",\"1\"],[\"7\",\".\",\".\",\".\",\"2\",\".\",\".\",\".\",\"6\"],[\".\",\"6\",\".\",\".\",\".\",\".\",\"2\",\"8\",\".\"],[\".\",\".\",\".\",\"4\",\"1\",\"9\",\".\",\".\",\"5\"],[\".\",\".\",\".\",\".\",\"8\",\".\",\".\",\"7\",\"9\"";
+        String[] split = s.split("],\\[");
+        for (int i = 0; i < split.length; i++) {
+            String[] split1 = split[i].split(",");
+            for (int j = 0; j < split1.length; j++) {
+                String substring = split1[j].substring(1, 2);
+                board[i][j]=substring.toCharArray()[0];
+            }
+//            System.out.println(Arrays.toString(board[i]));
+
+        }
+
         System.out.println( isValidSudoku(board) );
 
         System.out.println("执行时间："+(System.currentTimeMillis()-l)+"毫秒");
@@ -86,25 +107,120 @@ public class NO_36 {
      */
     public static boolean isValidSudoku(char[][] board) {
 
-        HashMap<String, Character> atRow0 = new HashMap<>();
+        HashSet<Character> atRow0 = new HashSet<Character>();
 
-        HashMap<String, Character> atCol0 = new HashMap<>();
+        ArrayList<HashSet<Character>> listCols = new ArrayList<>();
+        HashSet<Character> atCol0 = new HashSet<Character>();
+        listCols.add(atCol0);
 
-        HashMap<String, Character> atArea0 = new HashMap<>();
-        HashMap<String, Character> atArea1 = new HashMap<>();
-        HashMap<String, Character> atArea2 = new HashMap<>();
+        ArrayList<HashSet<Character>> listAreas = new ArrayList<>();
+        HashSet<Character> atArea0 = new HashSet<Character>();
+        listAreas.add(atArea0);
+        listAreas.add(new HashSet<Character>());
+        listAreas.add(new HashSet<Character>());
+/**
+ *        0i 0-2 j 0-2       1i 0-2 j 3-5     2i 0-2 j 6-8
+ *        3i 3-5 j 0-2       4i 3-5 j 3-5     5i 3-5 j 6-8
+ *        6i 6-8 j 0-2       7i 6-8 j 3-5     8i 6-8 j 6-8
+ *
+ */
 
         boolean isPoint;
         boolean isRowLast;
 
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
+                //判断列
+                try {
+                    HashSet<Character> set = listCols.get(j);
+                }catch (IndexOutOfBoundsException e){
+                    listCols.add(new HashSet<Character>() );
+                }
+
                 char at = board[i][j];
-                isRowLast = j==8;
                 isPoint = at == '.';
                 // i值空值行号0~8、j值空值列数0~8
+                if (!isPoint) {
+                    //判断行
+                    boolean add = atRow0.add(at);
+                    if (!add){
+                        return false;
+                    }
 
 
+                    boolean addCol = listCols.get(j).add(at);
+                    if (!addCol){
+                        return false;
+                    }
+
+                    //判断区
+                    if (i<3){
+                        if (j<3){
+                            boolean add0 = listAreas.get(0).add(at);
+                            if (!add0){
+                                return false;
+                            }
+                        }else if (j>5){
+                            boolean add1 = listAreas.get(1).add(at);
+                            if (!add1){
+                                return false;
+                            }
+                        }else {
+                            boolean add2 = listAreas.get(2).add(at);
+                            if (!add2){
+                                return false;
+                            }
+                        }
+                    }
+                    else if (i>5){
+                        if (j<3){
+                            boolean add0 = listAreas.get(0).add(at);
+                            if (!add0){
+                                return false;
+                            }
+                        }else if (j>5){
+                            boolean add1 = listAreas.get(1).add(at);
+                            if (!add1){
+                                return false;
+                            }
+                        }else {
+                            boolean add2 = listAreas.get(2).add(at);
+                            if (!add2){
+                                return false;
+                            }
+                        }
+                    }
+                    else {
+                        if (j<3){
+                            boolean add0 = listAreas.get(0).add(at);
+                            if (!add0){
+                                return false;
+                            }
+                        }else if (j>5){
+                            boolean add1 = listAreas.get(1).add(at);
+                            if (!add1){
+                                return false;
+                            }
+                        }else {
+                            boolean add2 = listAreas.get(2).add(at);
+                            if (!add2){
+                                return false;
+                            }
+                        }
+                    }
+
+                }
+
+                //重置行
+                isRowLast = j==8;
+                if (isRowLast) {
+                    atRow0.clear();
+                    if (i%3==2){
+                        listAreas.get(0).clear();
+                        listAreas.get(1).clear();
+                        listAreas.get(2).clear();
+                    }
+                }
             }
         }
 
