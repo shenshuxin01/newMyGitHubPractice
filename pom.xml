@@ -32,6 +32,7 @@
         <module>SecondSSMDemo</module>
         <module>ThirdSSMDemo</module>
         <module>Nexus_Demo</module>
+        <module>Log4jDemo</module>
     </modules>
 
     <dependencies>

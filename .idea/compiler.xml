@@ -2,29 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Kafka_Demo" />
-        <module name="Nexus_Demo" />
-        <module name="Log4jDemo" />
-        <module name="ThirdSSMDemo" />
         <module name="SecondSSMDemo" />
-        <module name="Spring-aop-01" />
-        <module name="Z__OtherDemo" />
         <module name="SpringMVCday01" />
-        <module name="FavoriteDemo" />
-        <module name="SSM_LoginDemo" />
         <module name="LeetCodeDemo" />
+        <module name="Spring-aop-01" />
+        <module name="SSM_LoginDemo" />
+        <module name="FavoriteDemo" />
+        <module name="Kafka_Demo" />
+        <module name="Log4jDemo" />
+        <module name="Z__OtherDemo" />
         <module name="OtherDemo" />
+        <module name="Nexus_Demo" />
+        <module name="ThirdSSMDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="FavoriteDemo" target="8" />
       <module name="Kafka_Demo" target="1.5" />
       <module name="LeetCodeDemo" target="8" />
-      <module name="Log4jDemo" target="1.5" />
+      <module name="Log4jDemo" target="8" />
       <module name="newMyGitHubPractice" target="8" />
       <module name="Nexus_Demo" target="8" />
       <module name="OtherDemo" target="1.5" />
