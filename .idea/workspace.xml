@@ -28,191 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0050693-6787-499d-86d4-d462124af48e" name="Default Changelist" comment="LC-新增数独是否有效">
-      <change afterPath="$PROJECT_DIR$/FavoriteDemo/src/main/java/websoket/DemoWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCodeDemo/src/main/java/ssx/NO_37.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jwebmp_jackson_core_jackson_annotations_0_66_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jwebmp_jackson_core_jackson_annotations_0_66_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_11_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_11_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_39.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_39.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_39.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_39.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_19_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_19_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/newMyGitHubPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/newMyGitHubPractice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FavoriteDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FavoriteDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka_Demo/target/classes/demo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka_Demo/target/classes/demo/MyConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka_Demo/target/classes/demo/MyProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka_Demo/target/classes/multi/DemoProducer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka_Demo/target/classes/multi/DemoProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TEST_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeDemo/src/test/java/TEST_22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log4jDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Log4jDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nexus_Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Nexus_Demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/src/main/webapp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_LoginDemo/src/main/webapp/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/controller/MyMVC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/entity/BooKPOJO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/mainapp/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/mapper/BookMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/mapper/BookMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/service/BookServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/spring-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/jsp-api-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/junit-4.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.16.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/hello.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/SSM_LoginDemo-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/controller/MyMVC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/entity/BooKPOJO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/mainapp/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/mapper/BookMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/mapper/BookMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/service/BookServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/spring-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM_LoginDemo/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/directory/IA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/directory/ImplA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/directory/ImplB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/main/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/main/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/main/SpringAopMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/spring-bean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-aop-01/target/classes/spring-bean2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/src/main/webapp/董国庆网站.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCday01/src/main/webapp/董国庆网站.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/E.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/F.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/G.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/H.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/I.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/J.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/K.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/L.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/M.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/comm/N.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/entity/SSX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/classes/util/MyZhuanHuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/aspectjrt-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/jackson-annotations-0.66.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-aop-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-aspects-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-beans-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-context-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-context-support-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-core-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-expression-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-jdbc-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-test-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-tx-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-web-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/spring-webmvc-4.3.19.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/tomcat-annotations-api-9.0.39.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/lib/tomcat-embed-core-9.0.39.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/a.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/anull.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/SpringMVCday01/董国庆网站.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/E.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/F.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/G.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/H.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/I.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/J.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/K.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/L.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/M.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/comm/N.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/entity/SSX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/classes/util/MyZhuanHuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVCday01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +115,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LeetCodeDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27147767" />
@@ -332,7 +148,7 @@
       <recent name="D:\IDEWork\ideaProject\newMyGitHubPractice\SecondSSMDemo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoWeb">
+  <component name="RunManager" selected="JUnit.TESTDEMOTest.testTestMain">
     <configuration name="DemoWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="websoket.DemoWeb" />
       <module name="FavoriteDemo" />
@@ -608,21 +424,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NO_36" />
-      <item itemvalue="Application.DemoWeb" />
       <item itemvalue="JUnit.TESTDEMOTest.testTestMain" />
       <item itemvalue="JUnit.TestMain" />
       <item itemvalue="JUnit.TestMain.testFun" />
-      <item itemvalue="Tomcat Server.Tomcat-SSM3" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.40" />
-      <item itemvalue="Tomcat Server.springmvcday01-tomcat" />
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.40" />
+      <item itemvalue="Tomcat 服务器.Tomcat-SSM3" />
+      <item itemvalue="Tomcat 服务器.springmvcday01-tomcat" />
+      <item itemvalue="应用程序.DemoWeb" />
+      <item itemvalue="应用程序.NO_36" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoWeb" />
         <item itemvalue="JUnit.TestMain" />
         <item itemvalue="JUnit.TestMain.testFun" />
-        <item itemvalue="Application.NO_36" />
         <item itemvalue="JUnit.TESTDEMOTest.testTestMain" />
       </list>
     </recent_temporary>
@@ -707,6 +521,8 @@
       <workItem from="1624860839175" duration="2559000" />
       <workItem from="1624871789343" duration="3007000" />
       <workItem from="1625031341743" duration="21000" />
+      <workItem from="1625465890670" duration="158000" />
+      <workItem from="1625557342246" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="最外层根目录新增pom文件管理子项目">
       <created>1619332408737</created>
