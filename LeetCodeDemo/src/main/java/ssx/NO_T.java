@@ -1,5 +1,7 @@
 package ssx;
 
+import org.junit.Test;
+
 /**
  *
  *
@@ -7,7 +9,8 @@ package ssx;
 
 public class NO_T {
 
-    public static void main(String[] args) {
+    @Test
+    public void testLC() {
         long l = System.currentTimeMillis();
 
         System.out.println(  );

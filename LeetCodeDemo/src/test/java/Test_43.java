@@ -1,9 +1,9 @@
-import junit.framework.TestCase;
 import org.junit.Test;
 
-public class TEST_43 extends TestCase {
+public class Test_43 {
+
     @Test
-    public void testFun(){
+     public void testTESTFun(){
         int i = 1231 % 10;
         //取个位
         assert i==1;
