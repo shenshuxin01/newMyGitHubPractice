@@ -45,7 +45,6 @@ public class NO_48 {
         System.out.println("执行时间："+(System.currentTimeMillis()-l)+"毫秒");
     }
 
-
     /**
      * 这个题拖了三天了，今天做完
      * @param matrix 例子[[1,2,3],[4,5,6],[7,8,9]]
@@ -55,7 +54,6 @@ public class NO_48 {
         //退出条件是当前圈的长度=1
         //可以使用递归
         dfs(matrix,1);
-
     }
 
     /**
